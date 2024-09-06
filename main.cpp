@@ -8,7 +8,8 @@ class LetDebug
         int s1 = 32767;
         int s2 = 1;
         int s3 = s1 + s2;
-        std::cout << s3 << std::endl;
+        int s4 = s3+s1;
+        std::cout << s4 << std::endl;
     }
 };
 int main() {
